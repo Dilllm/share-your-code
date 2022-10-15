@@ -76,6 +76,7 @@ word_list = [
 'iatrogenic', 
 'icebox', 
 'injury', 
+'internet',
 'ivory', 
 'ivy', 
 'jackpot', 
