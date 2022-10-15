@@ -12,7 +12,7 @@ word_length = len(chosen_word)
 
 display = []
 for _ in range(word_length):
-    display += "_"
+    display += "-"
 
 while not game_is_finished:
     guess = input("Guess a letter: ").lower()
@@ -30,12 +30,12 @@ while not game_is_finished:
 
     if guess not in chosen_word:
         print(f"You guessed {guess}, that's not in the word. You lose a life.")
-        lives -= 1
-        if lives == 0:
+        lives -= 2
+        if lives == 1:
             game_is_finished = True
             print("You lose.")
     
-    if not "_" in display:
+    if not "-" in display:
         game_is_finished = True
         print("You win.")
 
