@@ -173,6 +173,7 @@ word_list = [
 'triphthong', 
 'twelfth', 
 'twelfths', 
+'unlock',
 'unknown', 
 'unworthy', 
 'unzip', 
